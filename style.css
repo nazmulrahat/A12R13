@@ -18,6 +18,18 @@ nav {
     padding: 20px 5vh;
 
 }
+.marquee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(254, 163, 1, 1);
+    margin: 20px 0;
+  border: 1px  double rgba(254, 163, 1, 1);
+
+}
 
 nav img {
     width: 62px;
@@ -142,6 +154,7 @@ nav img {
 
 /*Standard Curriculum */
 .c1 {
+    
     text-align: center;
     font-size: 46px;
     font-weight: bold;
@@ -149,6 +162,7 @@ nav img {
 }
 
 .c2 {
+
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(#DEF5FF, #FFFFFF, #FFFFFF);
@@ -166,7 +180,7 @@ nav img {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(#FFF4DC, #FFFFFF, #FFFFFF);
-    align-items: center;
+     align-items: center;
     height: 476px;
     width: fit-content;
     padding: 0 50px;
@@ -176,6 +190,7 @@ nav img {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
 }
+
 .c022 {
     display: flex;
     flex-direction: column;
@@ -192,6 +207,24 @@ nav img {
 }
 
 .c3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    padding-top: 20px;
+
+}
+.c33 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    padding-top: 20px;
+
+}
+.c333 {
 
     display: flex;
     align-items: center;
@@ -250,7 +283,7 @@ nav img {
 
 /* Our Stories */
 .stories {
-    background-image: url("/img/bg.png");
+      background-image: url("/img/bg.png");
     background-size: cover;
 
 }
@@ -365,7 +398,7 @@ p {
     border-radius: 12px;
     color: white;
     text-align: center;
-    margin: 20px 0;
+    margin: 50px 0;
     padding: 10px 20px;
 }
 
@@ -529,6 +562,13 @@ p {
         align-items: center;
     }
 
+    .curriculum{
+        padding: 20px ;
+      
+    }
+
+  
+
     .btn2 {
         display: none;
     }
@@ -554,9 +594,7 @@ p {
         gap: 15px;
     }
     .grid-item.large {
-        grid-column: span 1;
-        grid-row: span 1;
-    
+      display: none;
         
     }
     .bgv{
@@ -572,9 +610,10 @@ p {
         gap: 15px;
     }
     #f{
-        display: block
-        ;
+        display: block;
     }
+
+  
 
 }
 
